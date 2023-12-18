@@ -12,7 +12,7 @@
     min-width: 320px;
     overflow-x: hidden;
     height: auto;
-    margin-bottom: 50px;
+    margin-bottom: 150px;
 }
 .navbar {
     width: 100%;
@@ -76,7 +76,7 @@ background-color: #339657;
 }
 
 .navbar-logo a{
-    margin-left: 25px;
+    margin-left: 150px;
     width:140px; 
     height: 75px;
     float: left;
@@ -87,6 +87,76 @@ background-color: #339657;
 
 
 .main {
-    width: 80%;
-    background-color: #000;
+  margin-left: 150px;
+  margin-right: 150px;
+}
+.text {
+    /*background-color: blue;*/
+    width: 47%;
+    float: left;
+    
+}
+
+.ptext1{
+    margin-bottom: 25px;
+}
+.spantext1{
+    color: #000;
+    font-family: 'Noto Sans', sans-serif;
+    font-size: 60px;
+    font-weight: 400px;
+   
+}
+.spantext2{
+    color: #000;
+    font-family: 'Noto Sans', sans-serif;
+    font-size: 70px;
+  
+}
+.spantext3
+{font-family: 'Noto Sans', sans-serif;
+    font-size: 26px;
+    color: #656565;
+    margin-bottom: 60px;
+}
+.img {
+    /*background-color: red;*/
+    width: 45%;
+    float: right;
+}
+.img1{
+    border-radius: 20px;
+    width: 480px;
+    height: 350px;
+    margin-bottom: 35px;
+}
+.text1m {
+    
+    padding: 10px 30px;
+    background-color: #EEEEEE;
+    border-radius: 100px;
+    color: #000;
+    text-decoration: none;
+    transition: all .1s ease-in-out;
+    width: 200px;
+    font-family: 'Noto Sans', sans-serif;
+    font-size: 16px;
+    color: #000;
+    text-align: center;
+}
+
+.text-email{
+    padding: 12px;
+    width: 400px;
+    border: 1px solid #EEEEEE   ;
+    background-color: #D9D9D9;
+    font-weight: 100;
+    outline:none;
+    border-radius: 15px;
+    appearance: none;
+    font-size: 18px;
+    color: black;
+}
+::placeholder {
+    color: 	#888888;
 }
